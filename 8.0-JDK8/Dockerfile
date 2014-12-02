@@ -7,8 +7,7 @@ RUN apt-get install -y --no-install-recommends unzip && \
     unzip -d /opt apache-tomcat-8.0.15.zip && \
     ln -s /opt/apache-tomcat-8.0.15 /opt/tomcat && \
     chmod +x /opt/tomcat/bin/*.sh && \
-    rm apache-tomcat-8.0.15.zip && \
-    rm -Rf /opt/tomcat/webapps/*
+    rm apache-tomcat-8.0.15.zip
 
 VOLUME ["/opt/tomcat/logs"]
 
