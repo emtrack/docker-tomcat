@@ -1,4 +1,4 @@
-FROM n3ziniuka5/ubuntu-oracle-jdk:14.04-JDK8
+FROM n3ziniuka5/ubuntu-oracle-jdk:14.04-JDK8u25
 MAINTAINER Laurynas Tretjakovas "laurynas.tretjakovas@gmail.com"
 
 RUN apt-get install -y --no-install-recommends unzip && \
